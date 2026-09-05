@@ -4,12 +4,12 @@
 
 @font-face {
     font-family: 'Minecraft Ten';
-    src: url('fonts/MinecraftTen-VGORe.ttf') format('truetype');
+    src: url('assets/fonts/MinecraftTen-VGORe.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Minecraft';
-    src: url('fonts/MinecraftRegular-Bmg3.otf') format('opentype');
+    src: url('assets/fonts/MinecraftRegular-Bmg3.otf') format('opentype');
 }
 
 :root {
@@ -44,7 +44,7 @@ body {
     position: fixed;
     width: 64px;
     height: 64px;
-    background: url('./images/cursor/diamond-sword-cursor.png') no-repeat center/contain;
+    background: url('./assets/cursor/diamond-sword-cursor.png') no-repeat center/contain;
     pointer-events: none;
     z-index: 9999;
     transform-origin: center;

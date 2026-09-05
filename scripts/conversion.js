@@ -18,7 +18,7 @@ const netherYMax = 123;
 
 let isReversed = false;
 
-export function initConversionModule() {
+function initConversionModule() {
     [xInput, yInput, zInput].forEach(input => {
         input.addEventListener('input', updateConversion);
     });

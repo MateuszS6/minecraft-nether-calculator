@@ -1,13 +1,10 @@
-import {initConversionModule} from "./conversion.js";
-import {initPathModule} from "./path.js";
-
 initConversionModule();
 initPathModule();
 
 /* CURSOR */
 const cursor = document.getElementById("cursor");
-const swordNormal = "./images/cursor/diamond-sword-cursor.png";
-const swordStrong = "./images/cursor/diamond-sword-pointer.png";
+const swordNormal = "./assets/cursor/diamond-sword-cursor.png";
+const swordStrong = "./assets/cursor/diamond-sword-pointer.png";
 
 let currentImg = swordNormal;
 

@@ -12,7 +12,7 @@ const distanceResult = document.getElementById('distance-result');
 const clear1Button = document.getElementById('clear-1-button');
 const clear2Button = document.getElementById('clear-2-button');
 
-export function initPathModule() {
+function initPathModule() {
     [x1Input, y1Input, z1Input, x2Input, y2Input, z2Input].forEach(input => {
         input.addEventListener('input', updatePathResult);
     });
